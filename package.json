@@ -1,0 +1,8 @@
+{
+  "name": "cvbot",
+  "description": "My CV as a bot",
+  "version": "1.0.0",
+  "engines": {
+    "node": "8.11.1"
+  }
+}
