@@ -53,6 +53,26 @@ function more() {
   });
 }
 
+function nothing() {
+  botui.message
+  .bot({
+    delay: 700,
+    loading: true,
+    content: 'Nice, we have a lot to talk :)'
+  })
+  .then(more);
+}
+
+function alot() {
+  botui.message
+  .bot({
+    delay: 1000,
+    loading: true,
+    content: 'Does not really matter, I will try to surprise you with something new'
+  })
+  .then(more);
+}
+
 
 function init() {
   botui.message
